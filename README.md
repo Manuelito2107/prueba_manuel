@@ -33,3 +33,66 @@ To https://github.com/Manuelito2107/prueba_manuel.git
 branch 'main' set up to track 'origin/main'.
 
 manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ ^C
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Trabajo 2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git add Trabajo 2.txt
+fatal: pathspec 'Trabajo' did not match any files
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git commin -m "version 2"
+git: 'commin' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Trabajo 2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git log
+commit 23c0dbbdde25bb2164cc5d8b8a1a1eec892aa74c (HEAD -> main, origin/main)
+Author: Manuelito2107 <manuelcalle2107@gmail.com>
+Date:   Fri Oct 4 10:06:19 2024 +0200
+
+    prueba_2
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git add .
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Trabajo 2.txt
+
+
+manuel@WS_Manuelos21 MINGW64 ~/OneDrive/Escritorio/prueba_manuel (main)
+$
